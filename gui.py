@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Загрузка обученной модели
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('model.keras')
 
 class DrawingApp:
     def __init__(self, root):
@@ -68,3 +68,7 @@ if __name__ == "__main__":
     root.mainloop()
 
 input("Нажмите Enter для выхода...")
+
+#https://www.kaggle.com/datasets/xainano/handwrittenmathsymbols/data +-
+
+#https://github.com/wblachowski/bhmsds sum
